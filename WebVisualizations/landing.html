@@ -23,14 +23,24 @@
     </head>
 
     <!--------------------------------->
+    <!----------PERSONAL CSS----------->
+    <!--------------------------------->
+    <style>
+      .container-bg {
+      background-color: white;
+      }
+    </style>
+
+    <!--------------------------------->
     <!-------NAVIGATION BAR CODE------->
     <!--------------------------------->
+    <body class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand col-sm-6 col-lg-8" href="#">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse col-6 col-lg-4" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -56,20 +66,19 @@
         </div>
       </nav>
 
-
     <!--------------------------------->
     <!------------BODY CODE------------>
     <!--------------------------------->
-    <body class="container">
+    <div class="jumbotron">
+      <div class="container container-bg">
         <h1>Summary: Latitude vs X</h1>
         <hr>
-        <div class=""
-        <p><img src="Assets/images/Fig1.png" width="500">
+        <p class="col-6"><img src="Assets/images/Fig1.png" width="500">
             The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherAPI to assemble a dataset of over 500 cities.</p>
 
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-            </p>
-
+            <p class="col-10">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+            </p></div>
+    </div>
 
     </body>
 </html>
