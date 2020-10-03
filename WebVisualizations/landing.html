@@ -70,14 +70,21 @@
         width: fit-content;
       }
 
+      .custom-navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
     </style>
 
     <!--------------------------------->
     <!-------NAVIGATION BAR CODE------->
     <!--------------------------------->
     <body class="navbar-width">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand justify-content-start"><div class="lat-container my-n1">Latitude</div></span>
+    <nav class="custom-navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand justify-content-start lat-container"><div style="color: white">Latitude</div></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation justify-content-end">
           <span class="navbar-toggler-icon"></span>
         </button>
