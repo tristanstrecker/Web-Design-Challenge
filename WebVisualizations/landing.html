@@ -102,7 +102,7 @@
     <!--------------------------------->
     <body class="container-width">
       <nav class="custom-navbar navbar-expand-lg navbar-light navbar-bg">
-          <span class="navbar-brand justify-content-start lat-container"><div style="color: white">Latitude</div></span>
+          <a class="navbar-brand justify-content-start lat-container" href="landing.html"><div style="color: white">Latitude</div></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation justify-content-end">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -114,10 +114,10 @@
                 </a>
               <div class="collapse" id="collapsed-dropdown">
                   <div class="dropdown-menu card card-body" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#" style="color: gray">Max Temperature</a>
-                  <a class="dropdown-item" href="#" style="color: gray">Humidity</a>
-                  <a class="dropdown-item" href="#" style="color: gray">Cloudiness</a>
-                  <a class="dropdown-item" href="#" style="color: gray">Wind Speed</a>
+                  <a class="dropdown-item" href="max_temp.html" style="color: gray">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html" style="color: gray">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html" style="color: gray">Cloudiness</a>
+                  <a class="dropdown-item" href="wind_speed.html" style="color: gray">Wind Speed</a>
                 </div>
               </div>
   
@@ -142,7 +142,7 @@
         <div class="p-3 bg-white">
         <h1>Summary: Latitude vs X</h1>
         <hr><div class="text-wrap mt-2 summary-text">
-          <img src="Assets/images/Fig1.png" width="200" class="mr-3 float-left">
+          <img src="Assets/images/lat_vs_temp.png" width="200" class="mr-3 float-left">
           
           The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherAPI to assemble a dataset of over 500 cities.<br><br>
 
@@ -158,11 +158,11 @@
           <div class="px-5 py-3 bg-white">
         <h1>Visualizations</h1>
         <hr>
-        <img src="Assets/images/Fig1.png" width="200">
-        <img src="Assets/images/Fig2.png" width="200">
+        <a href="max_temp.html"><img src="Assets/images/lat_vs_temp.png" width="200"></a>
+        <a href="humidity.html"><img src="Assets/images/lat_vs_humidity.png" width="200"></a>
         <br><br>
-        <img src="Assets/images/Fig3.png" width="200">
-        <img src="Assets/images/Fig4.png" width="200">
+        <a href="cloudiness.html"><img src="Assets/images/lat_vs_cloudiness.png" width="200"></a>
+        <a href="wind_speed.html"><img src="Assets/images/lat_vs_windspeed.png" width="200"></a>
       </div></div></div>
     </div></div>
 
