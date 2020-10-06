@@ -64,4 +64,7 @@ body {
     .plot-bg {
       background-color: #e9ecef;
     }
+    .row {
+      margin-right: 0px;
+    }
   }
