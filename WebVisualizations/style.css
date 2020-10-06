@@ -58,6 +58,12 @@ body {
     border: 1px solid #dee2e6!important;
   }
 
+  .right-container {
+    max-width: 700px;
+    padding: inherit;
+  }
+
+
   @media (max-width: 800px) {
     body {
       background-color: white;
@@ -96,5 +102,10 @@ body {
     .navbar-bg2 {
       background-color: teal;
     }
+  }
+}
+@media (min-width: 768px) {
+  .display {
+    display: inline!important;
   }
 }
