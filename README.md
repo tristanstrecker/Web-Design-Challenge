@@ -4,7 +4,13 @@ The purpose of this assignment was to build a site displaying a previous analysi
 ## Placeholder
 
 # Small Screen View Screenshots
-## Placeholder
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_landing.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_landing.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_maxtemp.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_maxtemp.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_humidity.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_humidity.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_cloudiness.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_cloudiness.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_windspeed.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_windspeed.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_comparison.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_comparison.jpg" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_data.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_data.jpg" width="400"></a>
 
 # Mobile View Screenshots
 <a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Mobile/mobile_landing.jpg"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Mobile/mobile_landing.jpg" width="400"></a>
