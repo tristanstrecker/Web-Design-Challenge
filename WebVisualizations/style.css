@@ -126,8 +126,11 @@ body {
     }
   }
 }
-@media (min-width: 768px) {
-  .right-container {
-    display: inline!important;
+@media (min-width: 600px) {
+  .custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
