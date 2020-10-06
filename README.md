@@ -1,2 +1,2 @@
 # Web-Design-Challenge
-![](https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_cloudiness?s=300)
+![](https://github.com/adrianstrecker/Web-Design-Challenge/blob/master/WebVisualizations/Screenshots/Small/small_cloudiness.png?s=300)
