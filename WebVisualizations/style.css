@@ -54,7 +54,7 @@ body {
     border: 1px solid #dee2e6!important;
   }
 
-  @media (max-width: 770px) {
+  @media (max-width: 800px) {
     body {
       background-color: white;
     }
