@@ -68,9 +68,9 @@
 
     <div class="row mx-md-5 pt-5">
       <div class="col px-md-3">
-        <div class="custom-container">
+        <div class="container-fluid">
         <div class="p-3 bg-white">
-        <h1>Cloudiness</h1>
+        <h1>Wind Speed</h1>
         <hr><div class="text-wrap mt-2 summary-text text-center">
           <img src="Assets/images/lat_vs_windspeed.png" class="img-fluid"><br><div class="text-left">
             Wind speed does not appear to be correlated to latitude; this is probably due to other factors affecting wind speed such as mountains, valleys, and ocean currents</div>
@@ -79,18 +79,19 @@
     <!--------------------------------->
     <!---------RIGHT CONTAINER--------->
     <!--------------------------------->
-    <div class="row mx-md-5">
-      <div class="col px-md-3">
+    <div class="row mx-md-n5">
+      <div class="col-8">
         <div class="container">
-          <div class="px-5 py-3 bg-white">
+          <div class="px-3 py-3 bg-white">
         <h1>Visualizations</h1>
         <hr>
-        <a href="max_temp.html"><img src="Assets/images/lat_vs_temp.png" width="200"></a>
-        <a href="humidity.html"><img src="Assets/images/lat_vs_humidity.png" width="200"></a>
-        <br><br>
-        <a href="cloudiness.html"><img src="Assets/images/lat_vs_cloudiness.png" width="200"></a>
-        <a href="wind_speed.html"><img src="Assets/images/lat_vs_windspeed.png" width="200"></a>
-      </div></div></div>
+        <div class="custom-row">
+          <div class="col-md-4 col-md-4"><a href="max_temp.html"><img src="Assets/images/lat_vs_temp.png" class="img-class"></a></div>
+          <div class="col-md-4 col-md-4"><a href="humidity.html"><img src="Assets/images/lat_vs_humidity.png" class="img-class"></a></div>
+          <div class="w-100 d-none d-md-block"></div>
+          <div class="col-md-4 col-md-4"><a href="cloudiness.html"><img src="Assets/images/lat_vs_cloudiness.png" class="img-class"></a></div>
+          <div class="col-md-4 col-md-4"><a href="wind_speed.html"><img src="Assets/images/lat_vs_windspeed.png" class="img-class"></a></div>
+        </div>
     </div></div>
 
     </body>
