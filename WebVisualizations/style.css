@@ -50,6 +50,10 @@ body {
   .navbar-bg{
     background-color: white;
   }
+  .navbar-bg2 {
+    background-color: white;
+  }
+
   .cust-border {
     border: 1px solid #dee2e6!important;
   }
@@ -81,14 +85,16 @@ body {
     .navbar-bg {
       background-color: teal;
     }
-    .bg-white {
-      background-color: teal;
-    }
   } 
   @media (max-width: 991px) {
-  .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: rgba(236, 231, 231, 0.753);
-    margin-right: 1%;
+    .navbar-light .navbar-toggler {
+      color: rgba(0,0,0,.5);
+      border-color: rgba(236, 231, 231, 0.753);
+      margin-right: 1%;
+  }
+  @media (min-width: 992px) {
+    .navbar-bg2 {
+      background-color: teal;
+    }
   }
 }
