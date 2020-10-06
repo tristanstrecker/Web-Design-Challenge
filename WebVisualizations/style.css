@@ -1,137 +1,141 @@
 body {
+  background-color: #e9ecef;
+}
+
+h1 {
+  color: teal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.container-width {
+  width: 100%;
+}
+
+.left-padding {
+  padding-left: 100%;
+
+}
+
+.lat-container {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  padding: 1%;
+  width: fit-content;
+  margin-left: 1%;
+}
+
+.summary-text {
+  font-size: larger;
+  color:darkslategrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.custom-container {
+  width: fit-content;
+}
+
+.custom-navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-bg{
+  background-color: white;
+}
+.navbar-bg2 {
+  background-color: white;
+}
+
+.cust-border {
+  border: 1px solid #dee2e6!important;
+}
+
+.right-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.custom-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -13rem;
+  margin-left: -1rem;
+}
+
+.img-class {
+  width: 200px;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: white;
+  }
+  .navbar-bg {
+    background-color: teal;
+  }
+  .plot-bg {
     background-color: #e9ecef;
   }
-
-  h1 {
-    color: teal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+  .row {
+    margin-right: 0px;
   }
-
-  .container-width {
-    width: 100%;
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(236, 231, 231, 0.753);
+    margin-right: 1%;
   }
-
-  .left-padding {
-    padding-left: 100%;
-
-  }
-
-  .lat-container {
-    background-color: teal;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    padding: 1%;
-    width: fit-content;
-    margin-left: 1%;
-  }
-
-  .summary-text {
-    font-size: larger;
-    color:darkslategrey;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .custom-container {
-    width: fit-content;
-  }
-
-  .custom-navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .navbar-bg{
-    background-color: white;
-  }
-  .navbar-bg2 {
-    background-color: white;
-  }
-
-  .cust-border {
-    border: 1px solid #dee2e6!important;
-  }
-
-  .right-container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .custom-row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -13rem;
-    margin-left: -1rem;
+    flex-wrap: inherit;
   }
-
   .img-class {
-    width: 200px;
+    width: 145px;
   }
+}
 
-  @media (max-width: 800px) {
-    body {
-      background-color: white;
-    }
-    .navbar-bg {
-      background-color: teal;
-    }
-    .plot-bg {
-      background-color: #e9ecef;
-    }
-    .row {
-      margin-right: 0px;
-    }
-    .navbar-light .navbar-toggler {
-      color: rgba(0,0,0,.5);
-      border-color: rgba(236, 231, 231, 0.753);
-      margin-right: 1%;
-    }
-    .custom-row {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: inherit;
-    }
-    .img-class {
-      width: 145px;
-    }
+@media (max-width: 1050px) {
+  body {
+    background-color: white;
   }
-
-  @media (max-width: 1050px) {
-    body {
-      background-color: white;
-    }
-    .navbar-bg {
-      background-color: teal;
-    }
-  } 
-  @media (max-width: 991px) {
-    .navbar-light .navbar-toggler {
-      color: rgba(0,0,0,.5);
-      border-color: rgba(236, 231, 231, 0.753);
-      margin-right: 1%;
+  .navbar-bg {
+    background-color: teal;
   }
-  @media (min-width: 992px) {
-    .navbar-bg2 {
-      background-color: teal;
-    }
+} 
+@media (max-width: 991px) {
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(236, 231, 231, 0.753);
+    margin-right: 1%;
+}
+@media (min-width: 992px) {
+  .navbar-bg2 {
+    background-color: teal;
   }
+}
 }
 @media (max-width: 600px) {
-  .custom-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: auto;
+.custom-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: auto;
   }
 }
+@media (max-width: 585px) {
+  .img-class {
+    width: 325px;
+  }
