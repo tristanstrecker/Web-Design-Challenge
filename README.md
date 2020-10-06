@@ -1,5 +1,9 @@
 # Web-Design-Challenge
 The purpose of this assignment was to build a site displaying a previous analysis of temperature, humidity, cloudiness, and wind speed across the globe.
+
+The site can be accessed <a href="https://adrianstrecker.github.io/Web-Design-Challenge/WebVisualizations/landing.html">here</a>.
+
+Below are screenshots for various screen sizes.
 # Large Screen View Screenshots
 <a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_landing.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_landing.png" width="400"></a>
 <a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_maxtemp.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_maxtemp.png" width="400"></a>
