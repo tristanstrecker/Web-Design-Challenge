@@ -74,7 +74,7 @@ body {
     }
   }
 
-  @media (max-width: 1090px) {
+  @media (max-width: 1050px) {
     body {
       background-color: white;
     }
