@@ -1,7 +1,13 @@
 # Web-Design-Challenge
 The purpose of this assignment was to build a site displaying a previous analysis of temperature, humidity, cloudiness, and wind speed across the globe.
 # Large Screen View Screenshots
-## Placeholder
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_landing.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_landing.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_maxtemp.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_maxtemp.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_humidity.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_humidity.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_cloudiness.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_cloudiness.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_windspeed.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_windspeed.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_comparison.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_comparison.png" width="400"></a>
+<a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_data.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Large/large_data.png" width="400"></a>
 
 # Small Screen View Screenshots
 <a href="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_landing.png"><img src="https://raw.githubusercontent.com/adrianstrecker/Web-Design-Challenge/master/WebVisualizations/Screenshots/Small/small_landing.png" width="400"></a>
