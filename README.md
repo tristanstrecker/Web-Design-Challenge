@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-## The purpose of this assignment was to build a site displaying a previous analysis of temperature, humidity, cloudiness, and wind speed across the globe.
+### The purpose of this assignment was to build a site displaying a previous analysis of temperature, humidity, cloudiness, and wind speed across the globe.
 # Large Screen View Screenshots
 ## Placeholder
 
