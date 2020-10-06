@@ -126,11 +126,12 @@ body {
     }
   }
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .custom-row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: auto;
   }
 }
