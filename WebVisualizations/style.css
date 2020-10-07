@@ -120,8 +120,7 @@ h1 {
   body {
     background-color: white;
   }
-  .navbar-bg {
-    background-color: teal;
+
   }
 } 
 @media (max-width: 991px) {
