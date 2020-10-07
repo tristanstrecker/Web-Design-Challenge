@@ -10,12 +10,6 @@ h1 {
 
 img:hover {
   border: 1px;
-  border-color: teal;
-  opacity: .8;
-}
-
-a:hover {
-  opacity: .9;
 }
 
 .container-width {
@@ -37,6 +31,10 @@ a:hover {
   padding: 1%;
   width: fit-content;
   margin-left: 1%;
+}
+
+.lat-container:hover {
+  opacity: .9;
 }
 
 .summary-text {
@@ -85,6 +83,12 @@ a:hover {
 
 .img-class {
   width: 200px;
+}
+.img-class:hover {
+  opacity: .8;
+  border: 1px;
+  border-color: teal;
+  border-style: solid;
 }
 
 @media (max-width: 800px) {
