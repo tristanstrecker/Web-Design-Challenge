@@ -34,7 +34,7 @@ img:hover {
 }
 
 .lat-container:hover {
-  opacity: .9;
+  background-color: #8b6acf;
 }
 
 .summary-text {
