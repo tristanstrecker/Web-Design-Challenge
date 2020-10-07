@@ -143,6 +143,7 @@ h1 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-right: auto;
   }
 }
 @media (max-width: 585px) {
