@@ -1,15 +1,15 @@
 body {
-  background-color: #e9ecef;
+  background-color: #9a94a23b;
 }
 
 h1 {
-  color: teal;
+  color: mediumpurple;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 
 img:hover {
-  border: 1px;
+  border: 2px;
 }
 
 .container-width {
@@ -22,7 +22,7 @@ img:hover {
 }
 
 .lat-container {
-  background-color: teal;
+  background-color: mediumpurple;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -86,8 +86,8 @@ img:hover {
 }
 .img-class:hover {
   opacity: .8;
-  border: 1px;
-  border-color: teal;
+  border: 2px;
+  border-color: mediumpurple;
   border-style: solid;
 }
 
@@ -96,10 +96,10 @@ img:hover {
     background-color: white;
   }
   .navbar-bg {
-    background-color: teal;
+    background-color: mediumpurple;
   }
   .plot-bg {
-    background-color: #e9ecef;
+    background-color: #9a94a23b;
   }
   .row {
     margin-right: 0px;
@@ -144,7 +144,7 @@ img:hover {
 }
 @media (max-width: 992px) {
   .navbar-bg {
-    background-color: teal;
+    background-color: mediumpurple;
   }
 }
 
