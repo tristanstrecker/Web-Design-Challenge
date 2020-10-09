@@ -4,8 +4,9 @@ body {
 
 h1 {
   color: mediumpurple;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Ink Free';
   font-weight: bold;
+  font-size: 3rem;
 }
 
 img:hover {
@@ -37,9 +38,9 @@ img:hover {
 }
 
 .summary-text {
-  font-size: larger;
-  color:darkslategrey;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  color:#262227;
+  font-family: 'Yu Gothic Light', 'Baskerville Old Face', 'Bahnschrift Light SemiCondensed', 'Candara Light';
 }
 
 .brand-bg {
