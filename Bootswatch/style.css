@@ -25,8 +25,7 @@ a:hover {
 
 .summary-text {
     font-family: 'Ink Free', 'Microsoft YaHei Light';
-    font-size: 14pt;
-    /* font-style: italic; */
+    font-size: 16pt;
 }
 
 navbar-bg:hover {
@@ -153,4 +152,5 @@ navbar-bg:hover {
       }
     .img-class {
         width: 200px;
+    }
 }
