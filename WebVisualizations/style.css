@@ -115,15 +115,6 @@ img:hover {
   margin-left: auto;
 }
 
-.custom-row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -13rem;
-  margin-left: -1rem;
-}
-
 .img-class {
   width: 200px;
 }
@@ -190,6 +181,12 @@ img:hover {
   .navbar-bg {
     background-color: mediumpurple;
   }
+  .custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: inherit;
+  }
 }
 
 @media (max-width: 991px) {
@@ -252,12 +249,43 @@ img:hover {
       margin-right: -15px;
       margin-left: -15px;
     }
+  .custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: inherit;
+    margin-right: 0rem!important;
+    margin-left: -1rem!important;
+  }
+  .img-class {
+    width: 125px;
+  }  
+}
+@media (max-width: 745px) {
+  .custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: inherit;
+    margin-right: 8rem;
+    margin-left: -1rem!important;
+  }
 }
 
 @media (max-width: 710px) {
   .img-class {
       width: 125px;
   }
+}
+@media (max-width: 683px) {
+  .custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: inherit;
+    margin-right: 0rem!important;
+    margin-left: -1rem!important;
+  }  
 }
 
 @media (max-width: 620px) {
