@@ -113,6 +113,21 @@ navbar-bg:hover {
       }
 }
 
+@media (max-width: 992px) {
+    .custom-row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: inherit;
+      }
+}
+
+@media (max-width: 893px) {
+    .img-class {
+      width: 150px;
+    }
+  }
+
 @media (max-width: 845px) {
     .img-class {
         width: 145px;
@@ -134,15 +149,23 @@ navbar-bg:hover {
         margin-right: -15px;
         margin-left: -15px;
       }
+      .custom-row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: inherit;
+        margin-right: 0rem!important;
+        margin-left: -1rem!important;
+      }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 730px) {
     .img-class {
         width: 125px;
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 649px) {
     .img-class {
         width: 100px;
     }
