@@ -30,71 +30,69 @@
     <!--------------------------------->
     <!-------NAVIGATION BAR CODE------->
     <!--------------------------------->
-    <body class="container-width">
-      <nav class="custom-navbar navbar-expand-lg navbar-light navbar-bg">
-        <a class="navbar-brand justify-content-start lat-container" href="landing.html"><div style="color: white">Latitude</div></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation justify-content-end">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end navbar-bg" id="navbarNavDropdown">
-            <ul class="navbar-nav bg-white">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle plot-bg" data-toggle="collapse" href="#collapsed-dropdown" role="button" aria-expanded="false" aria-controls="collapsed-dropdown">
-                  Plots
-                </a>
-              <div class="collapse" id="collapsed-dropdown">
-                  <div class="dropdown-menu card card-body" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temp.html" style="color: gray">Max Temperature</a>
-                  <a class="dropdown-item" href="humidity.html" style="color: gray">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html" style="color: gray">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html" style="color: gray">Wind Speed</a>
-                </div>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-bg2">
+        <div class="navbar-bg pt-3 pb-2"><a class="navbar-brand" href="landing.html" style="color: white">Latitude</a></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown navbar-bg3">
+              <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
               </div>
-  
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="comparisons.html">Comparison</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
-          </div>
+            </li>
+            <li class="nav-item navbar-bg3">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item navbar-bg3">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
         </nav>
 
-    <!--------------------------------->
-    <!------------BODY CODE------------>
-    <!--------------------------------->
-
-    <div class="row mx-md-5 pt-5">
-      <div class="col px-md-3">
-        <div class="container">
-        <div class="p-3 bg-white">
+  <!--------------------------------->
+  <!------------BODY CODE------------>
+  <!--------------------------------->
+  <div class="custom-row2 mx-md-5 pt-5">
+    <div class="col px-md-5">
+      <div class="container-fluid bg-white">
+        <div class="p-4 bg-white">
         <h1>Humidity</h1>
-        <hr><div class="text-wrap mt-2 summary-text text-center">
-          <img src="Assets/images/lat_vs_humidity.png" class="img-fluid"><br><div class="text-left">
-          Based on the scatter plot distribution generated, there does not appear to be a correlation between latitude and humidity. Both the northern and southern hemispheres experience varying amounts of humidity. We see there is grouping of lower humidity closer to the northern latitude line and southern latitude line, but despite this we also see higher levels of humididty which indicates there is no real correlation between humidity and latitude. When calculating the pearson r value we found this confirmed a lack of correlation as well so it is safe to say latitude has no effect on humidity in a given location.
-        
+        <hr><div class="text-wrap mt-2 summary-text">
+        <div class="text-center"><img src="Assets/images/lat_vs_humidity.png" width="400" class="mr-3 img-fluid"></div><br>  
+        Based on the scatter plot distribution generated, there does not appear to be a correlation between latitude and humidity. Both the northern and southern hemispheres experience varying amounts of humidity. We see there is grouping of lower humidity closer to the northern latitude line and southern latitude line, but despite this we also see higher levels of humididty which indicates there is no real correlation between humidity and latitude. When calculating the pearson r value we found this confirmed a lack of correlation as well so it is safe to say latitude has no effect on humidity in a given location.</div>
         </div>
-           </div></div></div></div>
+      </div>
+    </div>
 
-    <!--------------------------------->
-    <!---------RIGHT CONTAINER--------->
-    <!--------------------------------->
-    <div class="row mx-md-n5">
-      <div class="col-8">
-        <div class="container">
-          <div class="px-3 py-3 bg-white">
+  <!--------------------------------->
+  <!---------RIGHT CONTAINER--------->
+  <!--------------------------------->
+  
+  <div class="custom-row mx-md-n5">
+    <div class="col-8">
+      <div class="container">
+        <div class="px-5 py-3 bg-white">
         <h1>Visualizations</h1>
         <hr>
         <div class="custom-row">
-          <div class="col-md-4 col-md-4"><a href="max_temp.html"><img src="Assets/images/lat_vs_temp.png" class="img-class"></a></div>
-          <div class="col-md-4 col-md-4"><a href="humidity.html"><img src="Assets/images/lat_vs_humidity.png" class="img-class"></a></div>
-          <div class="w-100 d-none d-md-block"></div>
-          <div class="col-md-4 col-md-4"><a href="cloudiness.html"><img src="Assets/images/lat_vs_cloudiness.png" class="img-class"></a></div>
-          <div class="col-md-4 col-md-4"><a href="wind_speed.html"><img src="Assets/images/lat_vs_windspeed.png" class="img-class"></a></div>
-        </div>
-    </div></div>
+        <div class="col-md-4 col-md-4"><a href="max_temp.html"><img src="Assets/images/lat_vs_temp.png" class="img-class"></a></div>
+        <div class="col-md-4 col-md-4"><a href="humidity.html"><img src="Assets/images/lat_vs_humidity.png" class="img-class"></a></div>
+        <div class="w-100 d-none d-md-block"></div>
+        <div class="col-md-4 col-md-4"><a href="cloudiness.html"><img src="Assets/images/lat_vs_cloudiness.png" class="img-class"></a></div>
+        <div class="col-md-4 col-md-4"><a href="wind_speed.html"><img src="Assets/images/lat_vs_windspeed.png" class="img-class"></a></div>
+      </div></div>
+    </div>
+  </div>
+  </div>
+  </div>
 
-    </body>
+  </body>
 </html>
