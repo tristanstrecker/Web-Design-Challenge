@@ -130,7 +130,7 @@ navbar-bg:hover {
 
 @media (max-width: 845px) {
     .img-class {
-        width: 145px;
+        width: 125px;
     }
     .custom-row {
         display: -ms-flexbox;
@@ -162,6 +162,12 @@ navbar-bg:hover {
 @media (max-width: 730px) {
     .img-class {
         width: 125px;
+    }
+}
+
+@media (max-width: 683px) {
+    .img-class {
+        width: 120px;
     }
 }
 
