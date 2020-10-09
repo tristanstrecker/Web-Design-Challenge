@@ -185,6 +185,13 @@ img:hover {
       flex-wrap: inherit;
     }
 }
+
+@media (max-width: 992px) {
+  .navbar-bg {
+    background-color: mediumpurple;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.5);
@@ -199,13 +206,13 @@ img:hover {
   }
   .navbar-bg3 {
     background-color: #f8f9fa;
+    margin-right: -1rem;
+    margin-left: -.97rem;
+    margin-bottom: -.5rem;
+    margin-top: .4rem
   }
 }
-@media (max-width: 992px) {
-  .navbar-bg {
-    background-color: mediumpurple;
-  }
-}
+
 @media (max-width: 845px) {
   .img-class {
       width: 145px;
