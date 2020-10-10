@@ -210,7 +210,7 @@ navbar-bg:hover {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-right: auto;
-        margin-left: -2.5rem!important;
+        margin-left: -.75rem!important;
       }
     .custom-row2 {
       display: -ms-flexbox;
