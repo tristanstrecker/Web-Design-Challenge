@@ -206,9 +206,18 @@ navbar-bg:hover {
     }
     .custom-row {
         display: -ms-flexbox;
-        display: contents;
+        display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-right: auto;
+        margin-left: -2.5rem!important;
       }
+    .custom-row2 {
+      display: -ms-flexbox;
+      display: contents;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: auto;
+      margin-left: auto;
+    }
 }
