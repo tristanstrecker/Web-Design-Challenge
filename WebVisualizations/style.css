@@ -313,7 +313,7 @@ img:hover {
       width: 200px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .custom-row {
     display: -ms-flexbox;
     display: flex;
