@@ -115,20 +115,6 @@ navbar-bg:hover {
         flex-wrap: inherit;
       }
 }
-@media (max-width: 1142px) {
-    .custom-row {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: inherit;
-    }
-    .custom-row3 {
-        display: -ms-flexbox;
-        display: contents;
-        -ms-flex-wrap: wrap;
-        flex-wrap: inherit;
-      }
-}
 
 @media (max-width: 992px) {
     .custom-row {
