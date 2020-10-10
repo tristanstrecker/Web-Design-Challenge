@@ -210,7 +210,7 @@ img:hover {
   }
 }
 
-@media (max-width: 845px) {
+@media (max-width: 861px) {
   .img-class {
       width: 145px;
   }
@@ -288,7 +288,7 @@ img:hover {
   }  
 }
 
-@media (max-width: 620px) {
+@media (max-width: 683px) {
   .img-class {
       width: 100px;
   }
