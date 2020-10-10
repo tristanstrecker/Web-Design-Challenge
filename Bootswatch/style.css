@@ -202,6 +202,13 @@ navbar-bg:hover {
 }
 @media (max-width: 300px) {
     .img-class {
-        width: 100px;
+        width: 150px;
     }
-  }
+    .custom-row {
+        display: -ms-flexbox;
+        display: contents;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+      }
+}
