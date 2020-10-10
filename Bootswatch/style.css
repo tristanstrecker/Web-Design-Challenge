@@ -200,3 +200,8 @@ navbar-bg:hover {
         width: 200px;
     }
 }
+@media (max-width: 300px) {
+    .img-class {
+        width: 100px;
+    }
+  }
