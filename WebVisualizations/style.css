@@ -21,7 +21,7 @@ img:hover {
   padding-left: 100%;
 }
 
-.lat-container {
+/* .lat-container {
   background-color: mediumpurple;
   color: white;
   text-align: center;
@@ -31,7 +31,7 @@ img:hover {
   padding: 1%;
   width: fit-content;
   margin-left: 1%;
-}
+} */
 
 .lat-container:hover {
   background-color: #8b6acf;
