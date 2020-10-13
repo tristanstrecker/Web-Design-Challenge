@@ -75,6 +75,13 @@ img:hover {
   padding-left: 1rem;
 }  */
 
+.nav-link:hover, .nav-link:focus {
+  text-shadow: 1px 1px 11px 7459ad;
+}
+c-active {
+  text-shadow: 1px 1px 11px #7459ad;
+  color: #7459ad!important;
+}
 
 .custom-container {
   width: fit-content;
@@ -91,8 +98,8 @@ img:hover {
 .navbar-bg{
   background-color: #7459ad;
   padding-left: inherit;
-  margin-top: -2rem;
-  margin-bottom: -1.375rem;
+  margin-top: -2.375rem;
+  margin-bottom: -2.25rem;
 }
 
 .navbar-bg:hover {
@@ -216,7 +223,8 @@ img:hover {
     margin-right: -1rem;
     margin-left: -.97rem;
     margin-bottom: -.5rem;
-    margin-top: .4rem
+    margin-top: .4rem;
+    padding-left: 0.5rem!important;
   }
 }
 
