@@ -3635,9 +3635,10 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #8e8c84;
+  color: white;
   text-decoration: none;
-  background-color: #f8f5f0;
+  background-color: #3e3f3a;
+  text-shadow: 1px 1px 11px white;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -3654,6 +3655,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu.show {
   display: block;
+  background-color: #3e3f3a !important;
 }
 
 .dropdown-header {
@@ -4511,7 +4513,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link:hover, .nav-link:focus {
-  text-decoration: none;
+  text-shadow: 1px 1px 11px white;
 }
 
 .nav-link.disabled {
